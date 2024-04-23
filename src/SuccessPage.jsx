@@ -19,7 +19,7 @@ function SuccessPage({ email }) {
       <div className="w-96 bg-white rounded-3xl p-8 w-min">
         <img
           className="pl-5 w-16 h-16"
-          src="public/icon-success.svg"
+          src="./icon-success.svg"
           alt="Success tick mark"
         />
         <p className="success-subscription-title-custom">

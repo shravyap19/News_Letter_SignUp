@@ -73,7 +73,7 @@ function RegisterNewsLetter() {
         <div>
           <img
             className="py-8"
-            src="public/illustration-sign-up-desktop.svg"
+            src="./illustration-sign-up-desktop.svg"
             alt="sign-Up illustration"
           />
         </div>
