@@ -1,0 +1,29 @@
+@layer components {
+  .btn-custom {
+    @apply rounded-md border-black border ml-2 p-1 h-11 w-11/12 sm:w-11/12 border-custom-border my-5 bg-custom-subscribe text-white text-xs font-medium font-sans ml-5;
+  }
+  .input-custom {
+    @apply rounded-md border-black border p-5 ml-2 h-11 w-11/12 border-custom-border text-xs font-sans ml-5;
+  }
+  .text-custom {
+    @apply leading-relaxed my-3 font-sans text-custom-text pl-5 text-sm;
+  }
+  .email-custom {
+    @apply text-xs font-semibold mb-1 mt-7 font-sans text-custom-text pl-5;
+  }
+  .title-custom {
+    @apply text-5xl sm:text-5xl font-bold text-center text-custom-blue mt-14;
+  }
+  .success-subscription-title-custom {
+    @apply text-5xl sm:text-5xl font-bold text-left leading-none mt-3 mb-5 pl-5;
+  }
+  .success-subscription-approval-text-custom {
+    @apply text-sm sm:text-sm text-left font-normal leading-tight text-subscription-approval-custom-gray pl-5 mb-5 w-full; /* Align text to the left with padding */
+  }
+  .error-custom {
+    @apply text-xs text-red-600 mt-7 ml-14 sm:mt-7 font-semibold;
+  }
+  .dissmiss-btn {
+    @apply bg-dissmiss-button text-white font-semibold py-3 rounded sm:w-72 w-72 ml-5; /* Full-width button */
+  }
+}

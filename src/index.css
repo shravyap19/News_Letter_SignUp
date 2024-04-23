@@ -1,0 +1,23 @@
+@import "/src/tailwindutilities.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-list li {
+  list-style-type: none; /* Removes default bullets */
+  position: relative; /* Needed to position the pseudo-element or background image */
+  padding-left: 30px; /* Adjust depending on the size of your image */
+}
+
+.custom-list li::before {
+  content: ""; /* Necessary for pseudo-elements */
+  position: absolute;
+  left: 0; /* Aligns the image to the left of the text */
+  top: 0; /* Aligns the image to the top of the list item, adjust as needed */
+  width: 19px; /* Size of your image */
+  height: 19px; /* Size of your image */
+  background-image: url("/public/icon-list.svg"); /* Ensure you have the correct path */
+  background-size: cover; /* Cover ensures the image covers the element */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+}
